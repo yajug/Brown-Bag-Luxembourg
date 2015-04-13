@@ -1,0 +1,45 @@
+[
+  {
+    "name": "Annabelle Buffart",
+    "bio": "Apple addict , geek, make-up lover & cat fanatic. I like to speak with everyone and share my knowledges with other. I'm a front-end developer with a big passion of HTML sementics and typography. Co-founder @cafeNArlon / IT Manager @GITLux / Consultant dev frontend + CM @AgilePartner",
+    "picture": "http://i0.wp.com/luxembourg.girlsintech.org/wp-content/uploads/2014/01/annabelle-buffard-Girls-in-tech.jpeg",
+    "websites": [
+      {
+        "title": "Linkedin",
+        "href": "https://www.linkedin.com/in/annabuffart"
+      },
+      {
+        "title": "Site",
+        "href": "http://annabelle.io/"
+      }
+    ],
+    "twitter": "yoseihana",
+    "mail": "info@ananbelle.io",
+    "sessions": [
+      {
+        "title": "Les 12 coups de l'ergonomie",
+        "summary": "Les 12 coups de l'ergonime s'inspire du livre L'ergonomie Web d'Amélie Boucher. Avec cette présentation, vous aurez l'occasion de voir 12 principes de l'ergonomie web pour mieux utiliser, designer et configurer vos sites internet"
+      },
+      {
+        "title": "La sémantique dans l'HTML",
+        "summary": " L'HTML, c'est comme l'écriture. Si on commence par une majuscule et on fini par un point, c'est qu'il y a une bonne raison. C'est la même chose avec l'HTML. Il y a une façon d'écrire et des règles existantes. Le Beschrelle de l'HTML n'existe pas (encore), mais je vous propose de revoir tous vos principes d'écriture HTML et le rendre meilleur."
+      },
+      {
+        "title": "Le CSS dans sous ses SASS",
+        "summary": "Dans cette présentation, nous aurons l'occasion de mettre en avant les principes d'utilisation du CSS dans le framework SASS."
+      }
+    ],
+    "tags": [
+      "HTML5",
+      "CSS3",
+      "Wordpress",
+      "SASS",
+      "Ergonomie"
+    ],
+
+    "languages": [
+      "Français",
+      "English"
+    ]
+  }
+]
