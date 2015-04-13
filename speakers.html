@@ -1,0 +1,108 @@
+<!-- +++++ Speakers Section +++++ -->
+
+<div class="container pt" ng-controller="baggerListCtrl">
+    <div class="row mt">
+        <div class="col-lg-6 col-lg-offset-3 centered">
+            <h3>Speakers</h3>
+            <hr>
+        </div>
+    </div>
+    <div class="row mt" ng-repeat="bagger in baggers">
+        <!-- Image -->
+        <div class="col-lg-4">
+            <img ng-src="{{bagger.picture}}" width="360"/>
+        </div>
+
+        <!-- About -->
+        <div class="col-lg-4">
+            <h2>{{bagger.name}}</h2>
+
+            <p>
+                {{bagger.bio}}
+            </p>
+        </div>
+
+        <!-- Subject -->
+        <div class="col-lg-4">
+            <h3>Tags</h3>
+            <ul class="list-inline list-unstyled">
+                <li class="label label-primary" ng-repeat="tag in bagger.tags">
+                    {{tag}}
+                </li>
+            </ul>
+            <h3>Subjects</h3>
+            <ul>
+                <li ng-repeat="subject in bagger.sessions">
+                    {{subject.title}}
+                </li>
+            </ul>
+            <!--<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#mysubjects">
+                Voir tous les sujets
+            </button>-->
+            <h3>
+                Langue
+            </h3>
+            <ul class="list-inline list-unstyled">
+                <li class="label label-success" ng-repeat="lang in bagger.languages">
+                    {{lang}}
+                </li>
+            </ul>
+        </div>
+
+
+    </div>
+    <!-- /row -->
+
+</div>
+<!-- /container -->
+
+<!-- Modal -->
+<!-- @TODO configuration of modal -->
+<!--<div class="modal fade" id="mysubjects" tabindex="-1" role="dialog" aria-labelledby="mySubjectLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content" ng-repeat="bagger">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                        aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">Les sujets d'Annabelle Buffart</h4>
+            </div>
+            <div class="modal-body">
+                <h3>Tous les sujets proposé par Annabelle</h3>
+                <ul>
+                    <li>
+                        <h4>Les 12 coups de l'ergonomie</h4>
+
+                        <p>
+                            Les 12 coups de l'ergonime s'inspire du livre L'ergonomie Web d'Amélie Boucher. Avec cette
+                            présentation, vous aurez l'occasion
+                            de voir 12 principes de l'ergonomie web pour mieux utiliser, designer et configurer vos
+                            sites internet
+                        </p>
+                    </li>
+                    <li>
+                        <h4>La sémantique dans l'HTML</h4>
+
+                        <p>
+                            L'HTML, c'est comme l'écriture. Si on commence par une majuscule et on fini par un point,
+                            c'est qu'il y a une bonne raison.
+                            C'est la même chose avec l'HTML. Il y a une façon d'écrire et des règles existantes. Le
+                            Beschrelle de l'HTML n'existe pas (encore), mais je vous
+                            propose de revoir tous vos principes d'écriture HTML et le rendre meilleur.
+                        </p>
+                    </li>
+                    <li>
+                        <h4>Le CSS dans sous ses SASS</h4>
+
+                        <p>
+                            Dans cette présentation, nous aurons l'occasion de mettre en avant les principes
+                            d'utilisation du CSS dans le framework SASS.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>-->
