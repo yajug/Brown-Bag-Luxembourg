@@ -41,5 +41,38 @@
       "Français",
       "English"
     ]
+  },
+  {
+    "name": "Gildas Cuisinier",
+    "bio": "Consultant Sfeir Luxembourg le jour, GeeK le soir, je suis curieux et aime apprendre et partager ! Principalement développeur, j'ai un léger passé de SysAdmin,  je suis un peu entre Dev et Ops.",
+    "picture": "https://d13pix9kaak6wt.cloudfront.net/avatar/users/g/c/u/gcuisinier_1419844244440773.jpg",
+    "websites": [
+      {
+        "title": "Linkedin",
+        "href": "http://lu.linkedin.com/in/gcuisinier"
+      },
+      {
+        "title": "Site",
+        "href": "http://www.gcuisinier.net"
+      }
+    ],
+    "twitter": "gcuisinier",
+    "mail": "bbl@gcuisinier.net",
+    "sessions": [
+      {
+        "title": "Docker, un métier d'avenir !",
+        "summary": "Docker ? Est-ce de la virtualisation ? Est-ce autre chose ? A quoi cela sert ? Je vous propose un introduction à Docker et son écosystème afin de comprendre l'intérêt de celui-ci et pourquoi il sera incontournable dans très peu de temps."
+      }
+    ],
+    "tags": [
+      "AWS",
+      "Cloud",
+      "Docker",
+      "DevOps"
+    ],
+
+    "languages": [
+      "Français"
+    ]
   }
 ]
