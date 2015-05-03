@@ -79,8 +79,8 @@
                 Alors? Convaincu par le concept? So let's go! Pour créer un Brown Bag Lunch il vous faut définir
                 différent éléménts pour communiquer dessus: un lieu, un sujet, un speaker et une date.
                 C'est pouruqoi, pour vous aider, nous avons créer ce site. Vous aurez l'occasion de consulter <a
-                    href="speakers.html" title="Vers la page des speakers">nos speakers</a>
-                ou les <a href="location.html">lieux disponibles</a>
+                    ui-sref="main.speaker" target="_blank" title="Vers la page des speakers">nos speakers</a>
+                et de les contacter directement pour votre BBLLu.
             </p>
         </div>
 
@@ -93,20 +93,21 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
-                <h2>Je veux être speaker!</h2>
+                <h2>Je souhaite être speaker!</h2>
 
                 <p>Super! Merci beaucoup! Pour ce faire, vous pouvez ajouter votre profile dans le fichier speaker.json.
                     Il vous suffit de modifier la page js/speakers.js soit en forkant le projet et en soumettant un pull
                     request,
-                    soit directement depuis Github via le bouton "edit".</p>
+                    soit directement depuis Github via le bouton "edit".
+                Conseil: Pour une plus belle mise en page, merci d'ajouter une photo de profile en portrait de 360px de with.</p>
             </div>
             <div class="col-lg-6">
-                <h2>Je veux acceuillir!</h2>
+                <h2>Je souhaite inviter un speaker!</h2>
 
-                <p>Un énorme merci! Pour ce faire, vous pouvez ajouter votre location dans le fichier location.json.
-                    Il vous suffit de modifier la page js/location.js soit en forkant le projet et en soumettant un pull
-                    request,
-                    soit directement depuis Github via le bouton "edit".</p>
+                <p>En voilà une bonne idée! Rien de plus simple, pour ce faire vous devez définir un lieu, une date et le lunch du speaker.
+                Ensuite, consultez <a ui-sref="main.speaker" title="Vers la page des speakers" target="_blank">notre section de speakers</a> et
+                    contactez-le directement avec toutes vos information et votre demande. A vous de décider si ce BBLLu est ouvert ou non.
+                    La durée moyenne du BBLLu est de 1h00 - 1h30</p>
             </div>
         </div>
         <!-- /row -->
