@@ -1,1 +1,0 @@
-# Brown-Bag-Luxembourg
